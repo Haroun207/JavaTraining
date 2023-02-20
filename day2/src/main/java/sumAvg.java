@@ -29,8 +29,19 @@ public class sumAvg{
    for(int i=0;i<arraySize;i++) {
 	   freqArray[array[i]]++;
    }
+   int mostfreq[]=new int[3];
+   
+   for(int i=1,j=0;i<freqArray.length;i++) {
+	   if(freqArray[i]>freqArray[mostfreq[j]]) {
+		   mostfreq[j]=i;
+		   j=(j+1)%3;
+	   }
+   }
    double avg=sum/(double)arraySize;
-   System.out.println(sum);
-   System.out.println(avg);
+   System.out.println("the sum of the numbers: "+sum);
+   System.out.println("the avarege of the numbers: "+ avg);
+   System.out.println("most frequented numbers: ");
+   for(int i:mostfreq)
+	   System.out.print(i+" ");
 	  }
 }
