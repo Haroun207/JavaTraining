@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 public class Main {
    
-   //static final String QUERY = "SELECT id, name, average, email FROM demo.students";
+  
    private static Properties getConnectionData() {
 
        Properties props = new Properties();
@@ -34,12 +34,7 @@ public class Main {
    static String user = props.getProperty("db.user");
    static String passwd = props.getProperty("db.passwd");
    public static void main(String[] args) {
-	  // Properties props = getConnectionData();
-
-     //  String url = props.getProperty("db.url");
-     //  String user = props.getProperty("db.user");
-      // String passwd = props.getProperty("db.passwd");
-      // Open a connection
+	 
 	   int dec;
 	   Scanner input=new Scanner(System.in);
 	   do {
