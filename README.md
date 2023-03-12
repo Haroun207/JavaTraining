@@ -7,7 +7,7 @@ Here is the tasks of each day:
 <br>
 Day1:
 <br>
-<img src="readme/day1.png" width="250"/> 
+<img src="readme/day1.jpg" width="250"/> 
 <br><br>
 Day2:
 <br>
